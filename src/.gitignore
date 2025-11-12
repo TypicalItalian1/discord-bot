@@ -1,4 +1,11 @@
+# Node modules (don’t upload libraries)
 node_modules
+
+# Real environment variables
 .env
+
+# Debug logs
 npm-debug.log*
+
+# Data folder (infractions.json, etc.)
 data/*.json
